@@ -6,7 +6,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Mooli, sans-serif;
-    transition: 0.4s;
 }
 
 body{
@@ -40,6 +39,8 @@ iframe{
 }
 
 img{
+    width: 400px;
+    height: 600px;
     filter: drop-shadow(5px 5px 20px white);
 }
 
@@ -60,3 +61,45 @@ span{
     left: 36%;
 }
 
+@media (max-width:376px)
+{
+    .inner{
+        display: contents;
+    }
+
+    .img{
+        margin: 5px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+   img{
+    width: 85px;
+    height: 100px;
+   }
+
+   .chatbot{
+    width: 85%;
+    margin-left: 28px;
+   }
+
+   iframe{
+    height: 85vh;
+   }
+
+   .s{
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+   }
+
+   span{
+    font-size: 1.4em;
+    }
+
+    .first-text{
+    font-size: 1.9em;
+    }
+     
+}
