@@ -61,45 +61,116 @@ span{
     left: 36%;
 }
 
-@media (max-width:376px)
-{
+@media (max-width:1493px) {
+
+    .s{
+        width: 30%;
+        position: absolute;
+    top: 40%;
+    left: 32%;
+    }
+
+    span{
+        font-size: 2em;
+    }
+    
+    .first-text{
+        font-size: 1.4em;
+        color:white;
+    }
+
+    img{
+        width: 300px;
+        height: 450px;
+    }
+    
+    .chatbot{
+        width: 30%;
+    }
+
+    iframe{
+        width: 100%;
+    }
+}
+
+@media (max-width:1156px) {
+    
+    .s{
+        width: 30%;
+        position: absolute;
+    top: 43%;
+    left: 31%;
+    }
+
+    span{
+        font-size: 1.5em;
+    }
+    
+    .first-text{
+        font-size: 1em;
+        color:white;
+    }
+
+    img{
+        width: 250px;
+        height: 350px;
+    }
+    
+    .chatbot{
+        width: 35%;
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+}
+
+@media (max-width:979px) {
+    .s{
+       display: none;
+    }
+
+    img{
+       display: none;
+    }
+
     .inner{
         display: contents;
     }
-
-    .img{
-        margin: 5px;
-        margin-left: 20px;
-        margin-bottom: 10px;
+      
+    .chatbot{
+        margin: 50px 10px 40px 25%;
+        width: 50%;
     }
+}
 
-   img{
-    width: 85px;
-    height: 100px;
-   }
+@media (max-width:701px) {
+    .chatbot{
+        margin: 50px 10px 40px 22%;
+        width: 60%;
+    }   
+}
 
-   .chatbot{
-    width: 85%;
-    margin-left: 28px;
-   }
+@media (max-width:501px) {
+    .chatbot{
+        width:80%;
+        margin: auto;
+        padding-top: 40px;
+    }       
+}
 
-   iframe{
-    height: 80vh;
-   }
 
-   .s{
-    width: 70%;
-    position: absolute;
-    top: 5%;
-    left: 30%;
-   }
+@media (max-width:376px)
+{
+  .chatbot{
+    width: 100%;
+    margin: 0;
+    padding-top: 0;
+  }
 
-   span{
-    font-size: 1.4em;
-    }
-
-    .first-text{
-    font-size: 1.9em;
-    }
-     
+  iframe{
+    border-radius: 1px ;
+    height: 100vh;
+  }
 }
