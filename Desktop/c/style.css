@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: radial-gradient(lightgreen,rgb(9, 224, 9));
+}
+
+iframe{
+    height: 90vh;
+    width: 100%;
+    border-radius: 1.8em;
+    box-shadow: 5px 5px 30px rgb(71, 70, 70);
+}
+
+.inner{
+    height: 100vh;
+    width: 100%;
+   display: flex;
+   justify-content: space-around;
+}
+
+.chatbot{
+     width: 26%;
+    display: flex;
+    align-items: center;
+
+}
+
+.img{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    filter: drop-shadow(5px 5px 20px white);
+}
+
+span{
+    color: brown;
+    font-size: 3em;
+}
+
+.first-text{
+    font-size: 1.9em;
+    color: white;
+}
+
+.s{
+    width: 35%;
+    position: absolute;
+    top: 36%;
+    left: 36%;
+}
+
